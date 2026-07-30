@@ -1,0 +1,90 @@
+:root {
+  --text-primary: #a67d2b;
+}
+
+@font-face {
+  font-family: "miremad";
+  src: url(../fonts/persian/miremad.ttf) format("truetype");
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "font_50";
+  src: url("../fonts/persian/font_50.ttf");
+}
+
+@font-face {
+  font-family: "IRANSansXFaNum";
+  src: url("../fonts/IRANSansXFaNum-Medium.ttf");
+}
+
+.font-miremad {
+  font-family: "miremad" !important;
+}
+
+.font-50 {
+  font-family: "font_50" !important;
+}
+
+.font-iransans {
+  font-family: "IRANSansXFaNum" !important;
+}
+
+.name-title {
+  font-family: "miremad" !important;
+  font-size: 42px !important;
+  font-weight: 500 !important;
+  line-height: 58px !important;
+  text-align: center;
+  position: relative;
+  left: 10px;
+  color: var(--text-primary);
+}
+
+.hero-title {
+  font-family: "miremad" !important;
+  font-size: 28px !important;
+  font-weight: 500 !important;
+  text-align: center;
+  color: var(--text-primary);
+}
+
+.hero-sub-title {
+  font-family: "miremad" !important;
+  font-size: 30px !important;
+  font-weight: 500 !important;
+  text-align: center;
+  padding-top: 20px;
+  color: var(--text-primary) !important;
+}
+
+.hero-text {
+  direction: rtl;
+  font-family: IRANSansXFaNum !important;
+  font-size: 18px !important;
+  color: var(--text-primary) !important;
+}
+
+#countdownContainer > .label,
+.timer-title {
+  font-family: "miremad" !important;
+}
+
+.section-title {
+  font-family: "miremad" !important;
+  font-size: 40px !important;
+  font-weight: 500 !important;
+}
+
+.footer-title {
+  font-family: "miremad" !important;
+  font-size: 30px !important;
+  color: var(--text-primary);
+}
+
+.footer-text {
+  font-family: "miremad" !important;
+  font-size: 24px !important;
+  padding-top: 30px;
+  color: var(--text-primary) !important;
+}
